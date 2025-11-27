@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFTECH - Controle de Ponto e Acesso</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="img/logo.jpg" alt="SAFTECH Logo" style="height: 50px; width: auto;">
+            </a>
+            
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active">Início</a>
+                <a href="index.html#about" class="nav-link">Empresa</a>
+                <a href="pages/products.html" class="nav-link">Produtos</a>
+                <a href="pages/clients.html" class="nav-link">Clientes</a>
+                <a href="pages/contact.html" class="nav-link">Contato</a>
+                <a href="pages/contact.html" class="btn btn-primary">Solicitar Orçamento</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="img/hero-security.jpg" alt="Segurança Eletrônica">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge badge-primary" style="margin-bottom: 1rem;">Tecnologia & Segurança</span>
+                <h1 class="hero-title">Controle Total e <span>Segurança Máxima</span></h1>
+                <p class="hero-text">Especialistas em sistemas de controle de ponto, acesso e soluções antifurto. Proteja seu patrimônio com a SAFTECH.</p>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="pages/contact.html" class="btn btn-primary">Solicitar Orçamento</a>
+                    <a href="pages/products.html" class="btn btn-outline">Conhecer Produtos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Strip -->
+    <section class="features">
+        <div class="container">
+            <div class="grid grid-4">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div>
+                        <h3>Alta Segurança</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Tecnologia de ponta para proteção máxima.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    <div>
+                        <h3>Controle Preciso</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Gestão eficiente de ponto e acesso.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <div>
+                        <h3>Instalação Rápida</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Equipe técnica especializada.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-star"></i></div>
+                    <div>
+                        <h3>Suporte Premium</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Atendimento dedicado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" style="background-color: white;">
+        <div class="container">
+            <div class="grid grid-2" style="align-items: center;">
+                <div class="about-img">
+                    <img src="img/about-team.jpg" alt="Equipe Saftech">
+                    <div class="about-stat">
+                        <h3 style="color: var(--primary); font-size: 2.5rem; margin-bottom: 0;">8+</h3>
+                        <p style="margin-bottom: 0; font-weight: 600;">Anos de excelência</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Inovação e Excelência em <span style="color: var(--primary);">Segurança</span></h2>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-muted);">
+                        Na <strong>SAFTECH TECNOLOGIA</strong>, somos apaixonados por inovação. Fundada em 2015, nossa missão é fornecer soluções de alta qualidade que atendam às necessidades reais de nossos clientes.
+                    </p>
+                    <p style="margin-bottom: 2rem; color: var(--text-muted);">
+                        Com uma equipe diversificada de profissionais experientes, trabalhamos em colaboração para desenvolver produtos e serviços que fazem a diferença.
+                    </p>
+                    <ul class="check-list grid grid-2">
+                        <li><i class="fas fa-check-circle"></i> Transparência</li>
+                        <li><i class="fas fa-check-circle"></i> Integridade</li>
+                        <li><i class="fas fa-check-circle"></i> Paixão</li>
+                        <li><i class="fas fa-check-circle"></i> Inovação</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Preview -->
+    <section class="section">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto 3rem;">
+                <span class="badge badge-primary">Nossas Soluções</span>
+                <h2 style="font-size: 2.5rem; margin: 1rem 0;">Destaques do Catálogo</h2>
+                <p style="color: var(--text-muted);">Equipamentos de alta performance para garantir a segurança e controle do seu estabelecimento.</p>
+            </div>
+
+            <div class="grid grid-3">
+                <!-- Product 1 -->
+                <div class="card">
+                    <div class="product-img">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <div class="product-content">
+                        <h4 class="product-title">Antena AM MD17</h4>
+                        <p class="product-desc">Tecnologia Acusto-Magnética de alta precisão. Design robusto em alumínio.</p>
+                        <a href="pages/products.html" class="btn btn-primary btn-full">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="card">
+                    <div class="product-img">
+                        <i class="fas fa-magnet"></i>
+                    </div>
+                    <div class="product-content">
+                        <h4 class="product-title">Desacoplador MD23</h4>
+                        <p class="product-desc">Super imã para remoção rápida de etiquetas rígidas.</p>
+                        <a href="pages/products.html" class="btn btn-primary btn-full">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="card">
+                    <div class="product-img">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <div class="product-content">
+                        <h4 class="product-title">Etiqueta Rígida Mini</h4>
+                        <p class="product-desc">Proteção discreta e eficaz para vestuário.</p>
+                        <a href="pages/products.html" class="btn btn-primary btn-full">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="pages/products.html" class="btn btn-outline" style="border-color: var(--primary); color: var(--primary);">Ver Catálogo Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Map -->
+    <section class="section" style="background-color: #F9FAFB;">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h2 style="font-size: 2.5rem;">Onde Estamos</h2>
+                <p style="color: var(--text-muted);">Venha nos visitar ou entre em contato.</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.074787467654!2d-43.98965492395696!3d-19.87906498149666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6910998700001%3A0x123456789abcdef!2sR.%20Detetive%20Moacyr%20Alves%20Garcia%2C%2050%20-%20Santa%20Branca%2C%20Belo%20Horizonte%20-%20MG%2C%2031564-450!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="background: var(--primary); color: white; text-align: center; position: relative; overflow: hidden;">
+        <div style="position: absolute; inset: 0; opacity: 0.1; background-image: url('img/tech-abstract.jpg'); background-size: cover;"></div>
+        <div class="container" style="position: relative; z-index: 10;">
+            <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1.5rem;">Pronto para proteger seu negócio?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;">Entre em contato agora mesmo e solicite um orçamento personalizado.</p>
+            <a href="pages/contact.html" class="btn" style="background: white; color: var(--primary);">Falar com Especialista</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid grid-3">
+                <div>
+                    <div class="logo" style="margin-bottom: 1.5rem;">
+                        <img src="img/logo.jpg" alt="SAFTECH Logo" style="height: 40px; width: auto; filter: brightness(0) invert(1);">
+                    </div>
+                    <p style="margin-bottom: 1.5rem;">Soluções completas em controle de ponto, acesso e sistemas antifurto.</p>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#" style="color: white;"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" style="color: white;"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" style="color: white;"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Início</a></li                        <li><a href="pages/clients.html">Clientes</a></li>                        <li><a href="pages/products.html">Produtos</a></li>
+                        <li><a href="pages/contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 0.5rem;"></i> Belo Horizonte - MG</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> (31) 97564-3554</li>
+                        <li><i class="fas fa-envelope" style="color: var(--primary); margin-right: 0.5rem;"></i> contato@saftech.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SAFTECH Tecnologia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5531975643554" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
