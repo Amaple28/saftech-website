@@ -93,3 +93,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Função global para solicitar orçamento via WhatsApp com nome do produto
+function requestQuote(productName) {
+    var base = 'https://wa.me/5531975643554';
+    var message = 'Olá! Gostaria de solicitar um orçamento para: ' + productName + '.';
+    var url = base + '?text=' + encodeURIComponent(message);
+    window.open(url, '_blank');
+}

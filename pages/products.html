@@ -12,7 +12,7 @@
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <link rel="icon" href="../img/icone.png" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -22,7 +22,7 @@
     <header class="header">
         <div class="container header-inner">
             <a href="../index.html" class="logo">
-                <img src="../img/logo.jpg" alt="SAFTECH Logo" style="height: 50px; width: auto;">
+                <img src="../img/logo_tp.png" alt="SAFTECH Logo" style="height: 50px; width: auto;">
             </a>
             
             <button class="mobile-toggle" id="mobileToggle">
@@ -35,7 +35,7 @@
                 <a href="products.html" class="nav-link active">Produtos</a>
                 <a href="clients.html" class="nav-link">Clientes</a>
                 <a href="contact.html" class="nav-link">Contato</a>
-                <a href="contact.html" class="btn btn-primary">Solicitar Orçamento</a>
+                <a href="https://wa.me/5531975643554?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20dos%20produtos%20Saftech." class="btn btn-primary" target="_blank" rel="noopener">Solicitar Orçamento</a>
             </nav>
         </div>
     </header>
@@ -71,122 +71,137 @@
 
             <!-- Products Grid -->
             <div class="grid grid-3" id="productsGrid">
-                <!-- Antenas -->
-                <div class="card product-item" data-category="antenas" data-name="Antena AM MD17">
+                <!-- Etiquetas -->
+                <div class="card product-item" data-category="etiquetas" data-name="Etiqueta Rede Aranha Cabo 36cm">
                     <div class="product-img">
-                        <i class="fas fa-broadcast-tower"></i>
+                        <img src="../img/products/etiqueta_rede_aranha.webp" alt="Etiqueta Rede Aranha Cabo 36cm" style="width: 100%; height: auto;">
                     </div>
                     <div class="product-content">
-                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Antenas Antifurto</span>
-                        <h4 class="product-title">Antena AM MD17</h4>
-                        <p class="product-desc">Sistema Acusto-Magnético 58kHz. Design robusto em alumínio e acrílico. Alta taxa de detecção.</p>
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
+                        <h4 class="product-title">Etiqueta Rede Aranha Cabo 36cm</h4>
+                        <p class="product-desc">Solução robusta para proteger produtos de alto valor como carnes nobres e itens resfriados. Sistema de trava magnética compatível com desacopladores a partir de 8.500 Gauss.</p>
                         <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
                             <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Frequência: 58kHz</li>
-                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Material: Alumínio</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Material: Aço revestido em PVC</li>
                         </ul>
-                        <button onclick="requestQuote('Antena AM MD17')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
-                    </div>
-                </div>
-
-                <div class="card product-item" data-category="antenas" data-name="Antena RF MD20">
-                    <div class="product-img">
-                        <i class="fas fa-wifi"></i>
-                    </div>
-                    <div class="product-content">
-                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Antenas Antifurto</span>
-                        <h4 class="product-title">Antena RF MD20</h4>
-                        <p class="product-desc">Sistema de Radiofrequência 8.2MHz. Ideal para lojas de roupas e acessórios.</p>
-                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
-                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Frequência: 8.2MHz</li>
-                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Alcance: até 1.6m</li>
-                        </ul>
-                        <button onclick="requestQuote('Antena RF MD20')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                        <button onclick="requestQuote('Etiqueta Rede Aranha Cabo 36cm')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
                     </div>
                 </div>
 
                 <!-- Acessórios -->
-                <div class="card product-item" data-category="acessorios" data-name="Desacoplador MD23">
+                <div class="card product-item" data-category="acessorios" data-name="Desativador/Verificador Eletrônico AM 58 kHz 220V">
                     <div class="product-img">
-                        <i class="fas fa-magnet"></i>
+                        <img src="../img/products/desativador_verificador_eletronico_am_58.webp" alt="Desativador/Verificador Eletrônico AM 58 kHz 220V" style="width: 100%; height: auto;">
                     </div>
                     <div class="product-content">
                         <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Acessórios</span>
-                        <h4 class="product-title">Desacoplador MD23</h4>
-                        <p class="product-desc">Super imã de 12000GS para remoção rápida de etiquetas rígidas padrão e super lock.</p>
-                        <button onclick="requestQuote('Desacoplador MD23')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                        <h4 class="product-title">Desativador/Verificador Eletrônico AM 58 kHz 220V</h4>
+                        <p class="product-desc">Ideal para uso em balcões e caixas registradoras. Estrutura plana, compatível com etiquetas adesivas EAS AM 58 kHz e funciona como verificador para tags rígidas.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Tensão: 220V</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Velocidade: até 160 peças/minuto</li>
+                        </ul>
+                        <button onclick="requestQuote('Desativador/Verificador Eletrônico AM 58 kHz 220V')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
                     </div>
                 </div>
 
-                <div class="card product-item" data-category="acessorios" data-name="Desacoplador MD13">
+                <div class="card product-item" data-category="acessorios" data-name="Desativador Magnético AM 58 kHz">
                     <div class="product-img">
-                        <i class="fas fa-magnet"></i>
+                        <img src="../img/products/desativador_magnetico_am_58.webp" alt="Desativador Magnético AM 58 kHz" style="width: 100%; height: auto;">
                     </div>
                     <div class="product-content">
                         <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Acessórios</span>
-                        <h4 class="product-title">Desacoplador MD13</h4>
-                        <p class="product-desc">Modelo compacto de 7500GS, ideal para balcões com espaço reduzido.</p>
-                        <button onclick="requestQuote('Desacoplador MD13')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                        <h4 class="product-title">Desativador Magnético AM 58 kHz</h4>
+                        <p class="product-desc">Projetado para desativar etiquetas adesivas descartáveis com rapidez e eficiência. Ideal para uso em balcões de lojas, compatível com sistemas antifurto EAS na tecnologia AM.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Dimensões: 100 x 150 x 10mm</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Material: Plástico ABS</li>
+                        </ul>
+                        <button onclick="requestQuote('Desativador Magnético AM 58 kHz')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
                     </div>
                 </div>
 
-                <div class="card product-item" data-category="acessorios" data-name="Desativador MD04">
+                <div class="card product-item" data-category="acessorios" data-name="Desativador/Verificador Eletrônico RF 8,2 MHz 110/220V">
                     <div class="product-img">
-                        <i class="fas fa-power-off"></i>
+                        <img src="../img/products/desativador_verificador_eletronico_rf.webp" alt="Desativador/Verificador Eletrônico RF 8,2 MHz 110/220V" style="width: 100%; height: auto;">
                     </div>
                     <div class="product-content">
                         <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Acessórios</span>
-                        <h4 class="product-title">Desativador MD04</h4>
-                        <p class="product-desc">Desativador eletrônico para etiquetas adesivas RF. Sinal sonoro e visual.</p>
-                        <button onclick="requestQuote('Desativador MD04')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                        <h4 class="product-title">Desativador/Verificador Eletrônico RF 8,2 MHz 110/220V</h4>
+                        <p class="product-desc">Dispositivo ideal para ambientes de varejo com design plano e compacto. Compatível com etiquetas adesivas descartáveis RF 8,2 MHz com bip sonoro integrado.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Voltagem: 110/220V (bivolt)</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Bip sonoro e verificador integrado</li>
+                        </ul>
+                        <button onclick="requestQuote('Desativador/Verificador Eletrônico RF 8,2 MHz 110/220V')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
                     </div>
                 </div>
 
                 <!-- Etiquetas -->
-                <div class="card product-item" data-category="etiquetas" data-name="Etiqueta Rígida Mini">
+                <div class="card product-item" data-category="etiquetas" data-name="Etiqueta Rígida para Garrafa AM 58 kHz">
                     <div class="product-img">
-                        <i class="fas fa-tag"></i>
+                        <img src="../img/products/etiqueta_rigida_p_garrafa_eas_am_58.webp" alt="Etiqueta Rígida para Garrafa AM 58 kHz" style="width: 100%; height: auto;">
                     </div>
                     <div class="product-content">
                         <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
-                        <h4 class="product-title">Etiqueta Rígida Mini</h4>
-                        <p class="product-desc">Proteção discreta e eficaz para vestuário. Disponível em tecnologia AM e RF.</p>
-                        <button onclick="requestQuote('Etiqueta Rígida Mini')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                        <h4 class="product-title">Etiqueta Rígida para Garrafa AM 58 kHz</h4>
+                        <p class="product-desc">Solução eficaz para proteger garrafas em estabelecimentos comerciais. Utiliza tecnologia Acousto-Magnetic de 58 kHz com alta sensibilidade na detecção de furtos.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Frequência: 58 kHz</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Material: Plástico ABS</li>
+                        </ul>
+                        <button onclick="requestQuote('Etiqueta Rígida para Garrafa AM 58 kHz')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
                     </div>
                 </div>
 
-                <div class="card product-item" data-category="etiquetas" data-name="Etiqueta Pencil">
+                <!-- Antenas -->
+                <div class="card product-item" data-category="antenas" data-name="Par de Antena Antifurto AM 58 kHz TX/RX">
                     <div class="product-img">
-                        <i class="fas fa-pen"></i>
+                        <img src="../img/products/par_de_antena_antifurto_eas_tx_rx_cinza.webp" alt="Par de Antena Antifurto AM 58 kHz TX/RX" style="width: 100%; height: auto;">
                     </div>
                     <div class="product-content">
-                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
-                        <h4 class="product-title">Etiqueta Pencil</h4>
-                        <p class="product-desc">Design alongado e leve, dificulta a remoção forçada sem danificar a peça.</p>
-                        <button onclick="requestQuote('Etiqueta Pencil')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Antenas Antifurto</span>
+                        <h4 class="product-title">Par de Antena Antifurto AM 58 kHz TX/RX</h4>
+                        <p class="product-desc">Sistema de segurança para lojas que detecta etiquetas antifurto em produtos e alerta em caso de tentativa de furto. Eficiente em ambientes com metais ou líquidos.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Frequência: 58 kHz</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Tensão: 220V</li>
+                        </ul>
+                        <button onclick="requestQuote('Par de Antena Antifurto AM 58 kHz TX/RX')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
                     </div>
                 </div>
 
-                <div class="card product-item" data-category="etiquetas" data-name="Cabo de Aço 17cm">
+                <!-- Etiquetas -->
+                <div class="card product-item" data-category="etiquetas" data-name="Etiqueta Adesiva 4x4 RF 8,2 MHz">
                     <div class="product-img">
-                        <i class="fas fa-link"></i>
+                        <img src="../img/products/etiqueta_adesiva_4x4_codigo_rf.webp" alt="Etiqueta Adesiva 4x4 RF 8,2 MHz" style="width: 100%; height: auto;">
                     </div>
                     <div class="product-content">
                         <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
-                        <h4 class="product-title">Cabo de Aço 17cm</h4>
-                        <p class="product-desc">Acessório para proteger bolsas, sapatos e itens onde o pino não pode ser aplicado.</p>
-                        <button onclick="requestQuote('Cabo de Aço 17cm')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                        <h4 class="product-title">Etiqueta Adesiva 4x4 RF 8,2 MHz</h4>
+                        <p class="product-desc">Ideal para proteger mercadorias em estabelecimentos de varejo, oferecendo excelente detecção em vestuário, cosméticos e diversos tipos de produtos.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Frequência: 8,2 MHz</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Descartável - pacote 5.000 unidades</li>
+                        </ul>
+                        <button onclick="requestQuote('Etiqueta Adesiva 4x4 RF 8,2 MHz')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
                     </div>
                 </div>
 
-                <div class="card product-item" data-category="etiquetas" data-name="Pino Padrão">
+                <!-- Antenas -->
+                <div class="card product-item" data-category="antenas" data-name="Par Antenas Antifurto RF 8,2 MHz RX/TX Alumínio">
                     <div class="product-img">
-                        <i class="fas fa-thumbtack"></i>
+                        <img src="../img/products/par_de_antena_antifurto_eas_tx_rx_cinza.webp" alt="Par de Antena Antifurto RF 8,2 MHz RX/TX Alumínio" style="width: 100%; height: auto;">
                     </div>
                     <div class="product-content">
-                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
-                        <h4 class="product-title">Pino Padrão</h4>
-                        <p class="product-desc">Pino de aço ranhurado para fixação segura das etiquetas rígidas.</p>
-                        <button onclick="requestQuote('Pino Padrão')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Antenas Antifurto</span>
+                        <h4 class="product-title">Par Antenas Antifurto RF 8,2 MHz RX/TX Alumínio</h4>
+                        <p class="product-desc">Utilizada em lojas de departamento, supermercados e varejistas de moda. Equipado com avançada Placa 5920 de duplo loop para detecção eficaz e aumento de ganho de sinal.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Frequência: 8,2 MHz</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Voltagem: 110/220V</li>
+                        </ul>
+                        <button onclick="requestQuote('Par Antenas Antifurto RF 8,2 MHz RX/TX Alumínio')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
                     </div>
                 </div>
             </div>
@@ -199,7 +214,7 @@
             <div class="grid grid-3">
                 <div>
                     <div class="logo" style="margin-bottom: 1.5rem;">
-                        <img src="../img/logo.jpg" alt="SAFTECH Logo" style="height: 40px; width: auto; filter: brightness(0) invert(1);">
+                        <img src="../img/logo_branca_tp.png" alt="SAFTECH Logo" style="height: 40px; width: auto; ">
                     </div>
                     <p style="margin-bottom: 1.5rem;">Soluções completas em controle de ponto, acesso e sistemas antifurto.</p>
                 </div>
@@ -219,13 +234,13 @@
                     <ul class="footer-links">
                         <li><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 0.5rem;"></i> Belo Horizonte - MG</li>
                         <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> (31) 97564-3554</li>
-                        <li><i class="fas fa-envelope" style="color: var(--primary); margin-right: 0.5rem;"></i> contato@saftech.com.br</li>
+                        <li><i class="fas fa-envelope" style="color: var(--primary); margin-right: 0.5rem;"></i> juniordpb56@gmail.com</li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 SAFTECH Tecnologia. Todos os direitos reservados.</p>
+                <p>&copy; 2025 SAFTECH Tecnologia. Todos os direitos reservados. Designed by <a href="https://isluwebdesign.com.br" target="_blank" style="color: white; text-decoration: underline;">Islu Web Design</a></p>
             </div>
         </div>
     </footer>
@@ -237,11 +252,6 @@
 
     <!-- Scripts -->
     <script src="../js/main.js"></script>
-    <script>
-        function requestQuote(productName) {
-            const text = `Olá, gostaria de um orçamento para o produto: ${productName}`;
-            window.open(`https://wa.me/5531975643554?text=${encodeURIComponent(text)}`, '_blank');
-        }
-    </script>
+    <!-- Removido script duplicado de requestQuote (agora definido em main.js) -->
 </body>
 </html>

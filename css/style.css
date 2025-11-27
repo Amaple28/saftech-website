@@ -73,6 +73,21 @@ img {
     display: block;
 }
 
+/* Responsive Images - utilities */
+.img-fluid { /* mantém proporção e limita à largura do contêiner */
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-cover { /* usa recorte para manter layout consistente */
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    border-radius: var(--radius);
+}
+
 /* Layout Utilities */
 .container {
     width: 100%;
@@ -292,10 +307,11 @@ img {
 .hero-title {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
+    color: #FFFFFF;
 }
 
 .hero-title span {
-    color: var(--primary);
+    color: var(--primary) !important;
 }
 
 .hero-text {
@@ -420,12 +436,13 @@ img {
 }
 
 .product-img {
-    height: 250px;
+    height: 350px; /* altura ampliada para mostrar produto completo */
     background: #F3F4F6;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden; /* evita que imagens maiores invadam o título */
 }
 
 .product-img i {
@@ -433,11 +450,19 @@ img {
     color: #D1D5DB;
 }
 
+/* Imagem dentro do card de produto: evita corte do título */
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* mostra imagem completa sem distorcer */
+    display: block;
+}
+
 .product-content {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    height: calc(100% - 250px);
+    height: auto; /* libera altura automática para não forçar sobreposição */
 }
 
 .product-title {
@@ -577,14 +602,16 @@ img {
     background: white;
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     transition: var(--transition);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 1rem;
+    height: auto;            /* remove altura fixa para evitar sobreposição */
+    overflow: hidden;        /* garante que conteúdo não escape do cartão */
 }
 
 .client-card:hover {
@@ -599,6 +626,14 @@ img {
 
 .client-card:hover i {
     color: var(--primary) !important;
+}
+
+/* Imagens nos cartões de clientes: proporção consistente e sem quebra */
+.client-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 /* Testimonial Cards */

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - SAFTECH</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="../img/icone.png" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo_tp.png" alt="SAFTECH Logo" style="height: 50px; width: auto;">
+            </a>
+            
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="../index.html" class="nav-link">Início</a>
+                <a href="../index.html#about" class="nav-link">Empresa</a>
+                <a href="products.html" class="nav-link active">Produtos</a>
+                <a href="clients.html" class="nav-link">Clientes</a>
+                <a href="contact.html" class="nav-link">Contato</a>
+                <a href="https://wa.me/5531975643554?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20dos%20produtos%20Saftech." class="btn btn-primary" target="_blank" rel="noopener">Solicitar Orçamento</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section" style="background: var(--bg-white); padding-bottom: 2rem;">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h1 style="font-size: 3rem; margin-bottom: 1rem;">Nossos Produtos</h1>
+                <p style="color: var(--text-muted); font-size: 1.1rem;">Explore nossa linha completa de soluções em segurança eletrônica e antifurto.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            
+            <!-- Filters -->
+            <div class="product-filters">
+                <div class="filter-btns" id="categoryFilters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="antenas">Antenas Antifurto</button>
+                    <button class="filter-btn" data-filter="acessorios">Acessórios</button>
+                    <button class="filter-btn" data-filter="etiquetas">Etiquetas & Tags</button>
+                </div>
+                
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="productSearch" placeholder="Buscar produtos...">
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="grid grid-3" id="productsGrid">
+                <!-- Antenas -->
+                <div class="card product-item" data-category="antenas" data-name="Antena AM MD17">
+                    <div class="product-img">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Antenas Antifurto</span>
+                        <h4 class="product-title">Antena AM MD17</h4>
+                        <p class="product-desc">Sistema Acusto-Magnético 58kHz. Design robusto em alumínio e acrílico. Alta taxa de detecção.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Frequência: 58kHz</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Material: Alumínio</li>
+                        </ul>
+                        <button onclick="requestQuote('Antena AM MD17')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+
+                <div class="card product-item" data-category="antenas" data-name="Antena RF MD20">
+                    <div class="product-img">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Antenas Antifurto</span>
+                        <h4 class="product-title">Antena RF MD20</h4>
+                        <p class="product-desc">Sistema de Radiofrequência 8.2MHz. Ideal para lojas de roupas e acessórios.</p>
+                        <ul class="check-list" style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--text-muted);">
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Frequência: 8.2MHz</li>
+                            <li><i class="fas fa-check" style="font-size: 0.8rem;"></i> Alcance: até 1.6m</li>
+                        </ul>
+                        <button onclick="requestQuote('Antena RF MD20')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+
+                <!-- Acessórios -->
+                <div class="card product-item" data-category="acessorios" data-name="Desacoplador MD23">
+                    <div class="product-img">
+                        <i class="fas fa-magnet"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Acessórios</span>
+                        <h4 class="product-title">Desacoplador MD23</h4>
+                        <p class="product-desc">Super imã de 12000GS para remoção rápida de etiquetas rígidas padrão e super lock.</p>
+                        <button onclick="requestQuote('Desacoplador MD23')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+
+                <div class="card product-item" data-category="acessorios" data-name="Desacoplador MD13">
+                    <div class="product-img">
+                        <i class="fas fa-magnet"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Acessórios</span>
+                        <h4 class="product-title">Desacoplador MD13</h4>
+                        <p class="product-desc">Modelo compacto de 7500GS, ideal para balcões com espaço reduzido.</p>
+                        <button onclick="requestQuote('Desacoplador MD13')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+
+                <div class="card product-item" data-category="acessorios" data-name="Desativador MD04">
+                    <div class="product-img">
+                        <i class="fas fa-power-off"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Acessórios</span>
+                        <h4 class="product-title">Desativador MD04</h4>
+                        <p class="product-desc">Desativador eletrônico para etiquetas adesivas RF. Sinal sonoro e visual.</p>
+                        <button onclick="requestQuote('Desativador MD04')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+
+                <!-- Etiquetas -->
+                <div class="card product-item" data-category="etiquetas" data-name="Etiqueta Rígida Mini">
+                    <div class="product-img">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
+                        <h4 class="product-title">Etiqueta Rígida Mini</h4>
+                        <p class="product-desc">Proteção discreta e eficaz para vestuário. Disponível em tecnologia AM e RF.</p>
+                        <button onclick="requestQuote('Etiqueta Rígida Mini')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+
+                <div class="card product-item" data-category="etiquetas" data-name="Etiqueta Pencil">
+                    <div class="product-img">
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
+                        <h4 class="product-title">Etiqueta Pencil</h4>
+                        <p class="product-desc">Design alongado e leve, dificulta a remoção forçada sem danificar a peça.</p>
+                        <button onclick="requestQuote('Etiqueta Pencil')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+
+                <div class="card product-item" data-category="etiquetas" data-name="Cabo de Aço 17cm">
+                    <div class="product-img">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
+                        <h4 class="product-title">Cabo de Aço 17cm</h4>
+                        <p class="product-desc">Acessório para proteger bolsas, sapatos e itens onde o pino não pode ser aplicado.</p>
+                        <button onclick="requestQuote('Cabo de Aço 17cm')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+
+                <div class="card product-item" data-category="etiquetas" data-name="Pino Padrão">
+                    <div class="product-img">
+                        <i class="fas fa-thumbtack"></i>
+                    </div>
+                    <div class="product-content">
+                        <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Etiquetas & Tags</span>
+                        <h4 class="product-title">Pino Padrão</h4>
+                        <p class="product-desc">Pino de aço ranhurado para fixação segura das etiquetas rígidas.</p>
+                        <button onclick="requestQuote('Pino Padrão')" class="btn btn-primary btn-full">Solicitar Orçamento</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid grid-3">
+                <div>
+                    <div class="logo" style="margin-bottom: 1.5rem;">
+                        <img src="../img/logo_branca_tp.png" alt="SAFTECH Logo" style="height: 40px; width: auto; ">
+                    </div>
+                    <p style="margin-bottom: 1.5rem;">Soluções completas em controle de ponto, acesso e sistemas antifurto.</p>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="../index.html#about">Empresa</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 0.5rem;"></i> Belo Horizonte - MG</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> (31) 97564-3554</li>
+                        <li><i class="fas fa-envelope" style="color: var(--primary); margin-right: 0.5rem;"></i> juniordpb56@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SAFTECH Tecnologia. Todos os direitos reservados. Designed by <a href="https://isluwebdesign.com.br" target="_blank" style="color: white; text-decoration: underline;">Islu Web Design</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5531975643554" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <!-- Removido script duplicado de requestQuote (usa função global em main.js) -->
+</body>
+</html>
