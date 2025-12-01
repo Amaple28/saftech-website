@@ -1,11 +1,5 @@
-/* 
- * SAFTECH - Controle de Ponto e Acesso
- * Design System: Clean Corporate Trust
- */
-
 :root {
-    /* Palette - Saftech Teal */
-    --primary: #008B8B; /* Teal principal */
+    --primary: #008B8B;
     --primary-dark: #006064;
     --primary-light: #E0F2F1;
     
@@ -74,13 +68,13 @@ img {
 }
 
 /* Responsive Images - utilities */
-.img-fluid { /* mantém proporção e limita à largura do contêiner */
+.img-fluid {
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-.img-cover { /* usa recorte para manter layout consistente */
+.img-cover {
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
@@ -442,7 +436,7 @@ img {
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow: hidden; /* evita que imagens maiores invadam o título */
+    overflow: hidden; 
 }
 
 .product-img i {
@@ -450,11 +444,10 @@ img {
     color: #D1D5DB;
 }
 
-/* Imagem dentro do card de produto: evita corte do título */
 .product-img img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* mostra imagem completa sem distorcer */
+    object-fit: contain; 
     display: block;
 }
 
@@ -462,7 +455,7 @@ img {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    height: auto; /* libera altura automática para não forçar sobreposição */
+    height: auto; 
 }
 
 .product-title {
@@ -610,8 +603,8 @@ img {
     align-items: stretch;
     justify-content: flex-start;
     gap: 1rem;
-    height: auto;            /* remove altura fixa para evitar sobreposição */
-    overflow: hidden;        /* garante que conteúdo não escape do cartão */
+    height: auto;            
+    overflow: hidden;        
 }
 
 .client-card:hover {
@@ -628,7 +621,7 @@ img {
     color: var(--primary) !important;
 }
 
-/* Imagens nos cartões de clientes: proporção consistente e sem quebra */
+
 .client-card img {
     width: 100%;
     aspect-ratio: 4 / 3;

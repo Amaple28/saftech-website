@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto - SAFTECH</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="../img/icone.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .product-details-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .product-image-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-light);
+            border-radius: 8px;
+            padding: 2rem;
+            min-height: 400px;
+        }
+
+        .product-image-section img {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+
+        .product-info-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .product-category {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .product-description {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .specs-section {
+            margin-bottom: 2rem;
+        }
+
+        .specs-section h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .spec-item {
+            background: var(--bg-light);
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .spec-item strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .spec-item span {
+            color: var(--text-muted);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .btn-back {
+            background: var(--bg-light);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn-back:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .related-products {
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid var(--bg-light);
+        }
+
+        .related-products h2 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            color: var(--text-dark);
+        }
+
+        @media (max-width: 768px) {
+            .product-details-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .specs-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .product-info-section h1 {
+                font-size: 1.8rem;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+            }
+
+            .btn-back {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo_tp.png" alt="SAFTECH Logo" style="height: 50px; width: auto;">
+            </a>
+            
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="../index.html" class="nav-link">Início</a>
+                <a href="../index.html#about" class="nav-link">Empresa</a>
+                <a href="products.html" class="nav-link">Produtos</a>
+                <a href="clients.html" class="nav-link">Clientes</a>
+                <a href="contact.html" class="nav-link">Contato</a>
+                <a href="https://wa.me/5531975643554?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20dos%20produtos%20Saftech." class="btn btn-primary" target="_blank" rel="noopener">Solicitar Orçamento</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="section" style="background: var(--bg-white); padding: 1.5rem 0;">
+        <div class="container">
+            <nav style="display: flex; gap: 0.5rem; font-size: 0.95rem; color: var(--text-muted);">
+                <a href="../index.html" style="color: var(--primary); text-decoration: none;">Início</a>
+                <span>/</span>
+                <a href="products.html" style="color: var(--primary); text-decoration: none;">Produtos</a>
+                <span>/</span>
+                <span id="breadcrumb-product">Produto</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Product Details Section -->
+    <section class="section">
+        <div class="container">
+            <div id="product-content">
+                <!-- Conteúdo será carregado dinamicamente -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid grid-3">
+                <div>
+                    <div class="logo" style="margin-bottom: 1.5rem;">
+                        <img src="../img/logo_branca_tp.png" alt="SAFTECH Logo" style="height: 40px; width: auto; ">
+                    </div>
+                    <p style="margin-bottom: 1.5rem;">Soluções completas em controle de ponto, acesso e sistemas antifurto.</p>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="../index.html#about">Empresa</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 0.5rem;"></i> Belo Horizonte - MG</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> (31) 97564-3554</li>
+                        <li><i class="fas fa-envelope" style="color: var(--primary); margin-right: 0.5rem;"></i> juniordpb56@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SAFTECH Tecnologia. Todos os direitos reservados. Designed by <a href="https://isluwebdesign.com.br" target="_blank" style="color: white; text-decoration: underline;">Islu Web Design</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5531975643554" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <script>
+        // Função para obter parâmetro da URL
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Carregar dados dos produtos
+        async function loadProductDetails() {
+            try {
+                const response = await fetch('../js/products.json');
+                const products = await response.json();
+                const productId = getUrlParameter('id');
+
+                if (!productId) {
+                    document.getElementById('product-content').innerHTML = '<p>Produto não encontrado.</p>';
+                    return;
+                }
+
+                const product = products.find(p => p.id === productId);
+
+                if (!product) {
+                    document.getElementById('product-content').innerHTML = '<p>Produto não encontrado.</p>';
+                    return;
+                }
+
+                // Atualizar breadcrumb
+                document.getElementById('breadcrumb-product').textContent = product.name;
+
+                // Construir HTML do produto
+                let specsHTML = '';
+                product.specs.forEach(spec => {
+                    specsHTML += `
+                        <div class="spec-item">
+                            <strong>${spec.key}</strong>
+                            <span>${spec.value}</span>
+                        </div>
+                    `;
+                });
+
+                const productHTML = `
+                    <div class="product-details-container">
+                        <div class="product-image-section">
+                            <img src="${product.image}" alt="${product.name}">
+                        </div>
+                        <div class="product-info-section">
+                            <span class="product-category">${product.category}</span>
+                            <h1>${product.name}</h1>
+                            <p class="product-description">${product.long_desc}</p>
+                            
+                            <div class="specs-section">
+                                <h3>Especificações Técnicas</h3>
+                                <div class="specs-grid">
+                                    ${specsHTML}
+                                </div>
+                            </div>
+
+                            <div class="action-buttons">
+                                <a href="products.html" class="btn-back">
+                                    <i class="fas fa-arrow-left"></i> Voltar aos Produtos
+                                </a>
+                                <button onclick="requestQuote('${product.name}')" class="btn btn-primary">
+                                    <i class="fas fa-envelope"></i> Solicitar Orçamento
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="related-products">
+                        <h2>Produtos Relacionados</h2>
+                        <div class="grid grid-3" id="related-products-grid">
+                            <!-- Produtos relacionados serão carregados aqui -->
+                        </div>
+                    </div>
+                `;
+
+                document.getElementById('product-content').innerHTML = productHTML;
+
+                // Carregar produtos relacionados
+                loadRelatedProducts(products, product.category, productId);
+
+            } catch (error) {
+                console.error('Erro ao carregar produtos:', error);
+                document.getElementById('product-content').innerHTML = '<p>Erro ao carregar os detalhes do produto.</p>';
+            }
+        }
+
+        function loadRelatedProducts(products, category, currentProductId) {
+            const relatedProducts = products.filter(p => p.category === category && p.id !== currentProductId).slice(0, 3);
+            
+            let relatedHTML = '';
+            relatedProducts.forEach(product => {
+                relatedHTML += `
+                    <div class="card product-item">
+                        <div class="product-img">
+                            <img src="${product.image}" alt="${product.name}" style="width: 100%; height: auto;">
+                        </div>
+                        <div class="product-content">
+                            <span class="badge badge-primary" style="margin-bottom: 0.5rem;">${product.category}</span>
+                            <h4 class="product-title">${product.name}</h4>
+                            <p class="product-desc">${product.short_desc}</p>
+                            <a href="product-details.html?id=${product.id}" class="btn btn-primary btn-full">Ver Detalhes</a>
+                        </div>
+                    </div>
+                `;
+            });
+
+            if (relatedHTML) {
+                document.getElementById('related-products-grid').innerHTML = relatedHTML;
+            } else {
+                document.querySelector('.related-products').style.display = 'none';
+            }
+        }
+
+        // Carregar detalhes ao abrir a página
+        document.addEventListener('DOMContentLoaded', loadProductDetails);
+    </script>
+</body>
+</html>
