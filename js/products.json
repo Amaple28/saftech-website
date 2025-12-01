@@ -4,6 +4,13 @@
         "name": "Etiqueta Rede Aranha Cabo 36cm",
         "category": "Etiquetas & Tags",
         "image": "../img/products/etiqueta_rede_aranha.webp",
+        "images": [
+            "../img/products/etiqueta_rede_aranha.webp",
+            "../img/products/etiqueta_rede_aranha/1.webp",
+            "../img/products/etiqueta_rede_aranha/2.webp",
+            "../img/products/etiqueta_rede_aranha/3.webp",
+            "../img/products/etiqueta_rede_aranha/4.webp"
+        ],
         "short_desc": "Solução robusta para proteger produtos de alto valor como carnes nobres e itens resfriados. Sistema de trava magnética.",
         "long_desc": "A etiqueta aranha com cabo de 36cm é uma solução robusta e especialmente projetada para proteger produtos de alto valor, como carnes nobres e itens resfriados ou congelados. Seu sistema de trava magnética é compatível com desacopladores a partir de 8.500 Gauss, proporcionando praticidade na remoção sem comprometer a integridade do produto. É ideal para uso em lojas de varejo e supermercados.",
         "specs": [
@@ -20,6 +27,14 @@
         "name": "Desativador/Verificador Eletrônico AM 58 kHz 220V",
         "category": "Acessórios",
         "image": "../img/products/desativador_verificador_eletronico_am_58.webp",
+        "images": [
+            "../img/products/desativador_verificador_eletronico_am_58.webp",
+            "../img/products/desativador_verificador_eletronico_am_58/1.webp",
+            "../img/products/desativador_verificador_eletronico_am_58/2.webp",
+            "../img/products/desativador_verificador_eletronico_am_58/3.webp",
+            "../img/products/desativador_verificador_eletronico_am_58/4.webp",
+            "../img/products/desativador_verificador_eletronico_am_58/5.webp"
+        ],
         "short_desc": "Ideal para uso em balcões e caixas registradoras. Compatível com etiquetas adesivas EAS AM 58 kHz e funciona como verificador para tags rígidas.",
         "long_desc": "O Desativador/Verificador Eletrônico AM 58 kHz (Modelo MD04) é ideal para uso em balcões e caixas registradoras. Possui estrutura plana, é compatível com etiquetas adesivas EAS AM 58 kHz (descartáveis) e também funciona como verificador para tags rígidas. Basta passar a etiqueta sobre o aparelho para desativar ou verificar. Possui sistema sonoro e LED indicador.",
         "specs": [
@@ -36,6 +51,13 @@
         "name": "Desativador Magnético AM 58 kHz",
         "category": "Acessórios",
         "image": "../img/products/desativador_magnetico_am_58.webp",
+        "images": [
+            "../img/products/desativador_magnetico_am_58.webp",
+            "../img/products/desativador_magnetico_am_58/1.webp",
+            "../img/products/desativador_magnetico_am_58/2.webp",
+            "../img/products/desativador_magnetico_am_58/3.webp",
+            "../img/products/desativador_magnetico_am_58/4.webp"
+        ],
         "short_desc": "Projetado para desativar etiquetas adesivas descartáveis com rapidez e eficiência. Ideal para uso em balcões de lojas.",
         "long_desc": "Projetado para desativar etiquetas adesivas descartáveis com rapidez e eficiência, o Desativador EAS AM 58 kHz é ideal para uso em balcões de lojas. Compatível com sistemas antifurto EAS na tecnologia AM, oferece praticidade no atendimento e segurança no ponto de venda, garantindo uma experiência de compra ágil e protegida. Não possui sistema sonoro.",
         "specs": [
@@ -51,6 +73,13 @@
         "name": "Desativador/Verificador Eletrônico RF 8,2 MHz 110/220V",
         "category": "Acessórios",
         "image": "../img/products/desativador_verificador_eletronico_rf.webp",
+        "images": [
+            "../img/products/desativador_verificador_eletronico_rf.webp",
+            "../img/products/desativador_verificador_eletronico_rf/1.webp",
+            "../img/products/desativador_verificador_eletronico_rf/2.webp",
+            "../img/products/desativador_verificador_eletronico_rf/3.webp",
+            "../img/products/desativador_verificador_eletronico_rf/4.webp"
+        ],
         "short_desc": "Dispositivo ideal para ambientes de varejo com design plano e compacto. Compatível com etiquetas adesivas descartáveis RF 8,2 MHz com bip sonoro integrado.",
         "long_desc": "O Desativador/Verificador Eletrônico RF 8,2 MHz (Modelo MD03) é um dispositivo ideal para ambientes de varejo. Com um design plano e compacto, pode ser facilmente posicionado próximo à caixa registradora. É compatível com etiquetas adesivas descartáveis RF 8,2 MHz. Possui bip sonoro e verificador integrado.",
         "specs": [
@@ -67,6 +96,13 @@
         "name": "Etiqueta Rígida para Garrafa AM 58 kHz",
         "category": "Etiquetas & Tags",
         "image": "../img/products/etiqueta_rigida_p_garrafa_eas_am_58.webp",
+        "images": [
+            "../img/products/etiqueta_rigida_p_garrafa_eas_am_58.webp",
+            "../img/products/etiqueta_rigida_p_garrafa_eas_am_58/1.webp",
+            "../img/products/etiqueta_rigida_p_garrafa_eas_am_58/2.webp",
+            "../img/products/etiqueta_rigida_p_garrafa_eas_am_58/3.webp",
+            "../img/products/etiqueta_rigida_p_garrafa_eas_am_58/4.webp"
+        ],
         "short_desc": "Solução eficaz para proteger garrafas em estabelecimentos comerciais. Utiliza tecnologia Acousto-Magnetic de 58 kHz com alta sensibilidade.",
         "long_desc": "A Etiqueta Rígida para Garrafa AM 58 kHz (Modelo MD04) é uma solução eficaz para proteger garrafas em estabelecimentos comerciais. Utilizando a tecnologia Acousto-Magnetic (AM) de 58 kHz, garante alta sensibilidade na detecção de furtos. É ideal para lojas de bebidas, supermercados e outros ambientes que necessitam de segurança para produtos de alto valor. O cabo de aço revestido garante um ajuste seguro ao redor do gargalo da garrafa.",
         "specs": [
@@ -83,6 +119,13 @@
         "name": "Par de Antena Antifurto AM 58 kHz TX/RX",
         "category": "Antenas Antifurto",
         "image": "../img/products/par_de_antena_antifurto_eas_tx_rx_cinza.webp",
+        "images": [
+            "../img/products/par_de_antena_antifurto_eas_tx_rx_cinza.webp",
+            "../img/products/par_de_antena_antifurto_eas_tx_rx_cinza/1.webp",
+            "../img/products/par_de_antena_antifurto_eas_tx_rx_cinza/2.webp",
+            "../img/products/par_de_antena_antifurto_eas_tx_rx_cinza/3.webp",
+            "../img/products/par_de_antena_antifurto_eas_tx_rx_cinza/4.webp"
+        ],
         "short_desc": "Sistema de segurança para lojas que detecta etiquetas antifurto em produtos e alerta em caso de tentativa de furto. Eficiente em ambientes com metais ou líquidos.",
         "long_desc": "O Par de Antena Antifurto AM 58 kHz (Modelo MD07) é um sistema de segurança discreto e eficiente. Utiliza software para ajuste e possui eletrônica embarcada. A distância ideal para o bom funcionamento é de 90cm, podendo chegar a 1,5m com etiquetas específicas. É a opção certa para restaurantes, lojas de conveniências, home centers, lojas de confecção, calçados, etc.",
         "specs": [
@@ -99,6 +142,13 @@
         "name": "Etiqueta Adesiva 4x4 RF 8,2 MHz",
         "category": "Etiquetas & Tags",
         "image": "../img/products/etiqueta_adesiva_4x4_codigo_rf.webp",
+        "images": [
+            "../img/products/etiqueta_adesiva_4x4_codigo_rf.webp",
+            "../img/products/etiqueta_adesiva_4x4_codigo_rf/1.webp",
+            "../img/products/etiqueta_adesiva_4x4_codigo_rf/2.webp",
+            "../img/products/etiqueta_adesiva_4x4_codigo_rf/3.webp",
+            "../img/products/etiqueta_adesiva_4x4_codigo_rf/4.webp"
+        ],
         "short_desc": "Ideal para proteger mercadorias em estabelecimentos de varejo, oferecendo excelente detecção em vestuário, cosméticos e diversos tipos de produtos.",
         "long_desc": "As etiquetas adesivas RF 8,2 MHz 4x4 (código de barras falso) são ideais para proteger mercadorias em estabelecimentos de varejo, oferecendo excelente detecção em uma variedade de produtos, como vestuário e cosméticos. São descartáveis e projetadas para serem utilizadas em papéis, caixas, comandas e bijuterias.",
         "specs": [
@@ -115,6 +165,12 @@
         "name": "Par Antenas Antifurto RF 8,2 MHz RX/TX Alumínio",
         "category": "Antenas Antifurto",
         "image": "../img/products/par_antenas_antifurto_eas_rx_tx_aluminio_rf.webp",
+        "images": [
+            "../img/products/par_antenas_antifurto_eas_rx_tx_aluminio_rf.webp",
+            "../img/products/par_antenas_antifurto_eas_rx_tx_aluminio_rf/1.webp",
+            "../img/products/par_antenas_antifurto_eas_rx_tx_aluminio_rf/2.webp",
+            "../img/products/par_antenas_antifurto_eas_rx_tx_aluminio_rf/4.webp"
+        ],
         "short_desc": "Utilizada em lojas de departamento, supermercados e varejistas de moda. Equipado com avançada Placa 5920 de duplo loop para detecção eficaz.",
         "long_desc": "O Par de Antenas Antifurto RF 8,2 MHz (Modelo MD15) é fabricado em alumínio e opera em sistema (TX/RX). É ideal para lojas de vestuários ou segmentos que não tenham metais, líquidos ou eletrônicos. O conjunto RX/TX é responsável por detectar etiquetas e tags antifurto, ajudando a prevenir perdas e furtos de forma eficiente e discreta. Possui Placa 5920 dual loop.",
         "specs": [
@@ -131,6 +187,13 @@
         "name": "Etiqueta Pencil RF 8,2 MHz",
         "category": "Etiquetas & Tags",
         "image": "../img/products/etiqueta_pencil.webp",
+        "images": [
+            "../img/products/etiqueta_pencil.webp",
+            "../img/products/etiqueta_pencil/1.webp",
+            "../img/products/etiqueta_pencil/2.webp",
+            "../img/products/etiqueta_pencil/3.webp",
+            "../img/products/etiqueta_pencil/4.webp"
+        ],
         "short_desc": "Etiqueta rígida antifurto eficiente para a prevenção de furtos e controle de estoque em ambientes de varejo.",
         "long_desc": "A Etiqueta Rígida Pencil Antifurto EAS RF 8,2 MHz (Modelo MD21) é uma solução eficiente para a prevenção de furtos e controle de estoque em ambientes de varejo. Cada etiqueta é constituída por um circuito integrado de 8,2 MHz encapsulado em plástico PVC, garantindo durabilidade e desempenho confiável. Projetada para sistemas EAS (Electronic Article Surveillance), ela é ativada por aproximação.",
         "specs": [
@@ -147,6 +210,13 @@
         "name": "Etiqueta Rígida Óculos RF 8,2 MHz",
         "category": "Etiquetas & Tags",
         "image": "../img/products/etiqueta_rigida_oculos.webp",
+        "images": [
+            "../img/products/etiqueta_rigida_oculos.webp",
+            "../img/products/etiqueta_rigida_oculos/1.webp",
+            "../img/products/etiqueta_rigida_oculos/2.webp",
+            "../img/products/etiqueta_rigida_oculos/3.webp",
+            "../img/products/etiqueta_rigida_oculos/4.webp"
+        ],
         "short_desc": "Desenvolvida para proteger óculos e itens de pequeno porte. Garante alta eficiência na detecção sem comprometer a estética.",
         "long_desc": "A etiqueta rígida para óculos RF 8,2 MHz (Modelo MD15) foi desenvolvida para proteger óculos e itens de pequeno porte. Com tecnologia de radiofrequência (RF), garante alta eficiência na detecção sem comprometer a estética ou a experiência do cliente. É ideal para óticas, lojas de acessórios e varejo em geral.",
         "specs": [
@@ -163,6 +233,9 @@
         "name": "Etiqueta Adesiva ON AM 58KHZ",
         "category": "Etiquetas & Tags",
         "image": "../img/products/etiqueta_adesiva_on_am.png",
+        "images": [
+            "../img/products/etiqueta_adesiva_on_am.png"
+        ],
         "short_desc": "Etiqueta adesiva descartável ideal para proteger mercadorias em estabelecimentos de varejo, oferecendo excelente detecção.",
         "long_desc": "A Etiqueta Adesiva ON AM 58KHZ é uma etiqueta adesiva descartável ideal para proteger mercadorias em estabelecimentos de varejo, oferecendo excelente detecção em vestuário, cosméticos e diversos tipos de produtos. Possui um falso código de barras e é desativável.",
         "specs": [
@@ -177,6 +250,9 @@
         "name": "Etiqueta Mini Tag 8,2 MHz",
         "category": "Etiquetas & Tags",
         "image": "../img/products/etiqueta_mini_tag_8_2_mhz.jpg",
+        "images": [
+            "../img/products/etiqueta_mini_tag_8_2_mhz.jpg"
+        ],
         "short_desc": "Etiqueta Mini Tag descartável ideal para proteger mercadorias em estabelecimentos de varejo, oferecendo excelente detecção.",
         "long_desc": "A Etiqueta Mini Tag 8,2 MHz é uma etiqueta rígida pequena e discreta, ideal para proteger mercadorias em estabelecimentos de varejo, oferecendo excelente detecção em vestuário, cosméticos e diversos tipos de produtos. É reutilizável e utilizada com pino.",
         "specs": [
