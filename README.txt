@@ -1,39 +1,28 @@
-SAFTECH - Website Institucional
-===============================
+# Saftech MG - Tecnologia & Segurança 🔒🛡️
 
-Este pacote contém todos os arquivos necessários para publicar o site da SAFTECH.
-O site foi desenvolvido em HTML5, CSS3 e JavaScript puro, compatível com qualquer hospedagem Linux/PHP (como a Hostinger).
+<p align="center">
+  <img src="./screencapture-saftechmg.png" alt="Preview Saftech MG" width="100%">
+</p>
 
-ESTRUTURA DE ARQUIVOS:
-----------------------
-/index.html          -> Página inicial
-/css/style.css       -> Estilos visuais do site
-/js/main.js          -> Funcionalidades (menu, filtros)
-/img/                -> Imagens e logo
-/pages/              -> Páginas internas (Produtos, Contato)
+Este repositório contém o código do site institucional da **Saftech MG**, empresa especializada em sistemas de controle de ponto, acesso e soluções antifurto. O projeto foi estruturado para apresentar uma vasta gama de equipamentos de alta performance e serviços técnicos especializados.
 
-COMO PUBLICAR NA HOSTINGER (ou qualquer hospedagem cPanel):
------------------------------------------------------------
+## 🛠️ Tecnologias e Implementações
 
-1. Acesse o painel de controle da sua hospedagem (hPanel ou cPanel).
-2. Vá para o "Gerenciador de Arquivos" (File Manager).
-3. Navegue até a pasta "public_html".
-4. Se houver arquivos padrão lá (como default.php), você pode deletá-los.
-5. Clique no botão "Upload" (Enviar).
-6. Selecione o arquivo "saftech-website.zip" que você baixou.
-7. Após o upload, clique com o botão direito no arquivo zip e escolha "Extract" (Extrair).
-8. Certifique-se de que os arquivos extraídos (index.html, pastas css, js, img, pages) estejam diretamente dentro da pasta "public_html".
-   - Se eles forem extraídos para uma subpasta (ex: public_html/saftech-static), entre nessa pasta, selecione tudo, e mova para "public_html".
+- **Frontend:** HTML5, CSS3 e JavaScript.
+- **Arquitetura:** Focada em legibilidade e carregamento rápido para apresentação de catálogo.
+- **UX Corporativo:** Design sóbrio e profissional, alinhado à identidade visual de uma empresa de segurança e tecnologia.
+- **Componentes:**
+  - Vitrine de produtos (Antenas antifurto, etiquetas rígidas, desativadores).
+  - Seção de serviços técnicos (Instalação e Suporte Premium).
+  - Integração com formulário de orçamento e contato direto.
 
-TESTANDO O SITE:
-----------------
-Acesse seu domínio (ex: www.saftech.com.br) e verifique se a página inicial carrega corretamente.
-Teste o formulário de contato e os botões de WhatsApp para garantir que estão redirecionando para o número correto.
+## 🚀 Diferenciais do Projeto
+- **SEO Otimizado:** Estruturação pensada para que a empresa seja encontrada por termos de segurança eletrônica na região.
+- **Catálogo Detalhado:** Organização clara de produtos com especificações técnicas.
+- **Navegação Intuitiva:** Menus focados em facilitar a jornada do cliente industrial/comercial.
 
-SUPORTE:
---------
-Caso precise alterar o número do WhatsApp, edite o arquivo:
-/pages/contact.html (linha ~145)
-/js/main.js (não é necessário editar, pois o link é gerado dinamicamente no HTML)
+## 🌐 Link do Projeto
+Veja o site em funcionamento: [saftechmg.com.br](https://saftechmg.com.br/)
 
-Para adicionar novos produtos, basta copiar e colar o bloco de código de um produto existente no arquivo /pages/products.html e alterar as informações.
+---
+Desenvolvido por **Maisa Rodrigues**
